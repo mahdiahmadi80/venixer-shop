@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'vazir';
+    src: url('../fonts/Vazir.woff'),
+
+  }
+
+body{
+    overflow-x: hidden;
+    background-color: #111111;
+    color: #fafafa;
+    font-family: vazir;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
